@@ -1,0 +1,36 @@
+.nav-bar{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    z-index: 5;
+    background-color: #111;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+}
+.left-section ul {
+    display: flex;
+    list-style: none;
+
+}
+.left-section ul li{
+    margin-right: 20px;
+    color: #979797;
+}
+.left-section ul li.active {
+    color: #fff;
+    font-weight: 500;
+}
+
+.logo{
+    width: 80px;
+    margin: 20px 40px;
+}
+.avatar{
+    width: 30px;
+    margin: 20px 40px;
+}
